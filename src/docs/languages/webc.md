@@ -522,7 +522,7 @@ Inside of your component definition, you can add attributes to the outer host co
 
 #### Override the host component tag
 
-You can use `webc:root="override"` together to override the host component tag name! This isn’t very useful for HTML-only components (which leave out the host component tag) but is very useful when your component has style/scripts.
+You can use `webc:root="override"` to override the host component tag name! This isn’t very useful for HTML-only components (which leave out the host component tag) but is very useful when your component has style/scripts.
 
 {% codetitle "components/my-component.webc" %}
 
